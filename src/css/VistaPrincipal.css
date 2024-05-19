@@ -1,0 +1,13 @@
+/* VistaPrincipal.css */
+
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.main-container {
+  display: flex;
+  background-color: #fff; /* Fondo blanco */
+}

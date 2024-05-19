@@ -1,0 +1,96 @@
+/* Barra lateral */
+.sidebar {
+  width: 180px;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  transition: transform 0.3s ease;
+  overflow-x: hidden;
+}
+
+/* Encabezado de la barra lateral */
+.sidebar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Icono de menú */
+.menu-toggle {
+  font-size: 24px;
+}
+
+/* Lista de opciones del menú */
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Elemento de la lista de opciones del menú */
+.sidebar-menu li {
+  padding: 10px;
+}
+
+/* Área de contenido */
+.content {
+}
+
+/* Barra superior */
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #333;
+  width: 100%;
+  height: fit-content;
+  padding: 10px 0;
+}
+
+/* Botón de cerrar sesión */
+button {
+  background-color: black;
+  display: block;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #ff4837;
+}
+
+/* Estilos para las opciones del menú */
+.sidebar-menu li {
+  padding: 10px;
+}
+
+/* Estilos para los enlaces del menú */
+.sidebar-menu li a {
+  display: block;
+  padding: 25px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #333;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para los enlaces del menú cuando se pasa el ratón */
+.sidebar-menu li a:hover {
+  background-color: #ff4837;
+}
+
+/* Estilos para los iconos de las opciones del menú */
+.sidebar-menu li a::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-size: cover;
+}
